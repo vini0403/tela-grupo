@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul: #001E50;
+    --verde: #61D248;
+    --branco: #ffffff;
+    --branco2: #e7e7e7;
+    --font1: 'VW Head', sans-serif;
+    --font2: 'Verdana, Geneva, Tahoma, sans-serif;'
+
+}
+
+@font-face {
+    font-family: 'VW Head';
+    src: url('./fonts/VWText-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.posicionamento{
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ header img {
+    height: 46px;
+}
+ 
+.elementos_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+
+.elementos_header a{
+    text-decoration: none;
+    font-family: var(--font1);
+    color: var(--azul);
+}
+
+.btn_header .Login{
+    border: 3px solid var(--azul);
+    border-radius: 10px;
+    padding: 5px 5px;
+    
+}
+
+ .btn_header .cadastro{
+    border: 3px solid var(--azul);
+    border-radius: 10px;
+    padding: 5px 5px;
+    background-color: var(--azul);
+    color: var(--branco2);
+    
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 600px;    
+} 
+
+.menu a{
+    display: flex;
+    align-items: center;
+}
+
+.btn_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+body{
+    background-color: #e7e7e7;
+
+}
+
+.Facilitando{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 400px;
+    color: var(--azul);
+    
+}
+
+h1{
+    position: absolute;
+    left: -300px;
+    overflow: hidden;
+}
+
+
+
+h2{
+    font-family: var(--font1);
+    color: var(--azul);
+}
+
+.card{
+    background-color: var(--azul);
+    display: flex;
+}
+
+
+ .card h3{
+    font-family: var(--font1);
+    color: var(--azul);
+    font-size: 20px;
+}
+
+
+
+.titulo p{
+    font-size: 20px;
+}
+
+.missao h2{
+    font-family: var(--font1);
+    color: var(--azul);
+    font-size: 40px;
+}
